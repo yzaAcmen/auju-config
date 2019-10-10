@@ -5,13 +5,6 @@ spring:
   application:
     name: ANJU-ZUUL
 
-eureka:
-  instance:
-    prefer-ip-address: true
-  client:
-    serviceUrl:
-      defaultZone: http://root:root@localhost:8761/eureka/
-
 zuul:
   ignoredServices: '*' #只能通过路由访问，不能使用服务名访问
   routes:
