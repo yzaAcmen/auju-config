@@ -11,4 +11,7 @@ zuul:
     plat:
       serviceId: ANJU-PLAT
       path: /plat/**
+    product:
+      serviceId: ANJU-PRODUCT
+      path: /product/**
   prefix: /services
