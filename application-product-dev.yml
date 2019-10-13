@@ -1,5 +1,5 @@
 server:
-  port: 7777
+  port: 9999
 spring:
   application:
     name: AIGOU-PRODUCT #服务名称
