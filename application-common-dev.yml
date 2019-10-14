@@ -3,6 +3,6 @@ server:
   max-http-header-size: 10000000 
 spring:
   application:
-    name: AIGOU-COMMON 
+    name: ANJU-COMMON 
 
   
