@@ -14,4 +14,7 @@ zuul:
     product:
       serviceId: ANJU-PRODUCT
       path: /product/**
+    common:
+      serviceId: ANJU-COMMON
+      path: /common/**
   prefix: /services

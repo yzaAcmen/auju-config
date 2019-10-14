@@ -1,0 +1,8 @@
+server:
+  port: 6666
+  max-http-header-size: 10000000 
+spring:
+  application:
+    name: AIGOU-COMMON 
+
+  
