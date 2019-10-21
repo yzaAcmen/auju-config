@@ -8,6 +8,9 @@ spring:
     url: jdbc:mysql:///anju-product?serverTimezone=GMT%2B8
     username: root
     password: root
+  data:
+    elasticsearch:
+      cluster-nodes: localhost:9300
 #配置mapperxml文件的位置
 mybatis-plus:
   mapper-locations: classpath*:cn/itsource/anju/mapper/*Mapper.xml
